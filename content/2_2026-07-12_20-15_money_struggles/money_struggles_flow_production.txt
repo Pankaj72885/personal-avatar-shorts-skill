@@ -1,0 +1,50 @@
+Flow Production Package: "টাকা পয়সার ঝামেলা" (Financial Struggles)
+
+== 1. Agent Instructions ==
+(Project-এর Agent Instructions-এ বসান)
+
+Character: @me — [আপনার মুখের স্বাভাবিক গঠন/গায়ের রঙ], wearing a Half-sleeve cotton polo, muted light-to-medium tone. Keep identical face, hairstyle, and voice across every generation.
+
+INGREDIENTS: @me (character/voice) + @OutdoorRef (location-specific reference image — locks wardrobe, location, and props for that mode).
+
+LOCATION LIBRARY:
+[Outdoor]: outdoors on a quiet park bench, warm afternoon sunlight filtering through natural greenery softly blurred behind, relaxed natural daylight.
+
+Content style: Direct-to-camera motivational short, Jay-Shetty-style calm-confident delivery pacing, but visually colorful and cinematic. Vertical 9:16 only.
+
+Visual style: Rich cinematic color grading, warm/cool contrast, saturated natural tones, flattering directional lighting with real depth.
+
+Camera: systematic subtle arc/orbit movement across both beats.
+
+Audio: intentional mood-matched instrumental music in every clip — no weather/ambient SFX.
+
+Default behavior: reuse @me, the active @OutdoorRef, and the Location Library text for every clip of this video.
+
+
+== 2. Agent Settings ==
+Confirm before generating: Always
+Aspect ratio: 9:16 (vertical)
+Model: Gemini Omni Flash
+Outputs per generation: 1
+
+
+== 3. Prompts for Gemini Omni Flash ==
+
+--- Beat 1 ---
+Medium shot, vertical 9:16. @me, @OutdoorRef. Outdoors on a quiet park bench, warm afternoon sunlight filtering through natural greenery softly blurred behind, relaxed natural daylight. Subject is speaking directly to the camera with a calm, slightly reflective, and empathetic expression, using natural hand gestures.
+Camera starts from a centered position, slowly and smoothly arcs to the camera-left over the duration with no sudden movements, ending in a slightly-left-angle framing, maintaining a medium shot.
+Rich cinematic color grading, warm/cool contrast, saturated natural tones, flattering directional lighting with real depth.
+Audio/Music: soft cinematic instrumental, gentle piano with warm string swells, emotional and reflective, no vocals — enters with a noticeable swell in the first second, settles under the dialogue.
+Keep the exact same face, hairstyle, outfit, location, and props as reference — do not alter facial proportions, age, or eye color. Change only what this prompt explicitly describes. No on-screen text.
+
+Dialogue (spoken in Bengali, lip-synced): "মাস শেষে পকেট ফাঁকা থাকলে, বন্ধুমহলে কিংবা পরিবারে নিজেকে অনেক সময় খুব অসহায় মনে হয়। মনে হয়, সব সমস্যার মূলেই হয়তো এই টাকা!"
+
+
+--- Beat 2 ---
+Medium shot, vertical 9:16. @me, @OutdoorRef. Outdoors on a quiet park bench, warm afternoon sunlight filtering through natural greenery softly blurred behind, relaxed natural daylight. Subject is speaking directly to the camera with an assuring, calm, and confident expression, using natural hand gestures.
+Continuing directly from the previous clip's ending frame: camera positioned at a slight left angle to the subject, matching the exact framing, distance, and angle where the last clip ended. Slowly arcs back toward the center or slightly right, stopping on the closing line.
+Rich cinematic color grading, warm/cool contrast, saturated natural tones, flattering directional lighting with real depth.
+Audio/Music: soft cinematic instrumental, gentle piano with warm string swells, emotional and reflective, no vocals — enters with a noticeable swell in the first second, settles under the dialogue, then builds to a satisfying climax in the final moment of the video.
+Keep the exact same face, hairstyle, outfit, location, and props as reference — do not alter facial proportions, age, or eye color. Change only what this prompt explicitly describes. No on-screen text.
+
+Dialogue (spoken in Bengali, lip-synced): "কিন্তু সত্যিটা হলো, এই সাময়িক সংকটই আমাদের চিনিয়ে দেয় কে আপন আর কে পর। এই কঠিন সময়টাই একদিন তোমার সবচেয়ে বড় শক্তি হবে।"
