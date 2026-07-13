@@ -27,15 +27,18 @@
 - **Studio**, **Home**, **Outdoor** — প্রতিটার একটা fixed বর্ণনা+props (ধাপ ৩ দেখো), আর প্রতিটার
   **একটা করে reference image** যেটা Flow-এর Ingredients-এ `@StudioRef` / `@HomeRef` / `@OutdoorRef`
   নামে থাকে।
-- Reference image **প্রতি Location mode-এর জন্য একটা**, প্রতি ভিডিওতে না — একবার বানালে বারবার
-  reuse হয়, শুধু ঋতু/wardrobe বড় বদল হলে রিফ্রেশ করা লাগে। ট্র্যাক করো `references/reference-images.md`-এ।
+
+### ⚠️ Reference Image প্রম্পট সবসময় আউটপুটে দাও
+**কারণ**: নতুন Flow প্রজেক্টে শুধু `@me` টিকে থাকে — `@StudioRef`/`@HomeRef`/`@OutdoorRef` সহ সব
+Ingredient রিসেট হয়। তাই reference image প্রম্পট Flow Production Package-এ **বাধ্যতামূলকভাবে**
+রাখতে হবে — বিদ্যমান প্রজেক্টে reuse থাকুক বা না থাকুক, প্রতিটা রানে প্রম্পট দিতে হবে।
 
 ### Reference Image কীভাবে বানাবে ও ব্যবহার করবে
-**ধাপ ক — চেক করো**: `references/reference-images.md` দেখো। নির্বাচিত Location mode-এর
-reference আগে থেকে আছে ও এখনো current ঋতু/wardrobe-এর সাথে মেলে? থাকলে ধাপ (খ) স্কিপ করো,
-সরাসরি @[Mode]Ref reuse করার কথা বলো।
 
-**ধাপ খ — নতুন বানাও** (Nano Banana/Flow-এর ইমেজ মোডে, @me দিয়ে — প্রথমবার বা ঋতু বদলালে):
+**ধাপ ক — তথ্য নিন**: `references/reference-images.md` দেখো — নির্বাচিত Location mode-এর
+তারিখ ও wardrobe নোট করো। ঋতু/wardrobe বড় বদল হলে `reference-images.md` আপডেট করো।
+
+**ধাপ খ — প্রম্পট বানাও ও আউটপুটে রাখো** (Nano Banana/Flow-এর ইমেজ মোডে, @me দিয়ে):
 ```
 Photorealistic still of @me, wearing [আজকের wardrobe — wardrobe-guide.md থেকে], [নির্বাচিত
 Location profile-এর হুবহু বর্ণনা — ধাপ ৩ থেকে]. Sitting/standing in a natural relaxed pose as if
@@ -43,8 +46,8 @@ captured mid-conversation — a candid in-character moment, not a posed lookbook
 natural expression. Location-appropriate lighting matching the mode. Medium shot, 9:16
 portrait, photorealistic. No text, no watermark.
 ```
-জেনারেট হওয়া ছবিটা Flow-এর Ingredients-এ আপলোড করে `@StudioRef`/`@HomeRef`/`@OutdoorRef` নাম
-দিতে বলো। `references/reference-images.md`-এ তারিখ+wardrobe নোট আপডেট করো।
+এই প্রম্পট Flow Production Package-এ বসাও এবং বর্ণনা করো: Nano Banana-তে @me দিয়ে generate করে,
+Ingredients-এ আপলোড করে `@StudioRef`/`@HomeRef`/`@OutdoorRef` নাম দিতে বলো।
 
 **ধাপ গ — ব্যবহার**: প্রতিটা বিটের প্রম্পটে এখন **দুটো** ইনগ্রেডিয়েন্ট রেফারেন্স থাকবে —
 `@me, @StudioRef` (বা যেই mode সক্রিয়) — @me চরিত্রের মুখ/voice লকের জন্য, @[Mode]Ref
@@ -58,6 +61,7 @@ wardrobe+location+props লকের জন্য।
    facial proportions, age, or eye color, and do not introduce new furniture, objects, or
    equipment, and do not change the room. Change only what this prompt explicitly describes.`
 4. **একই session** — দুটো বিট Flow-এর একই conversation-এ পরপর জেনারেট করা ভালো।
+
 
 ## ২. স্ক্রিপ্ট রাইটিং নীতি ও বিট-ভাঙার হিসাব
 

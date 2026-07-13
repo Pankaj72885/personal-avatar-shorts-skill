@@ -1,0 +1,99 @@
+﻿===================================================
+FLOW PRODUCTION PACKAGE  [Direct Clip Mode]
+Topic   : পরিবর্তনের ভয় (Fear of Change)
+Date    : 2026-07-13  |  Serial: 4
+Location: Outdoor
+Wardrobe: Half-sleeve cotton polo, muted light-to-medium tone (বর্ষা)
+Music   : Energetic / Upbeat  (E mood)
+Method  : Last-Frame  — Beat 1 last frame → Beat 2 first frame
+===================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GENERATION SETTINGS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+| Setting                   | Value                          |
+|---------------------------|--------------------------------|
+| Beat 1 mode               | Text-to-Video                  |
+| Beat 2 mode               | Image-to-Video (first frame)   |
+| Aspect ratio              | 9:16 (vertical)                |
+| Model                     | Gemini Omni Flash              |
+| Outputs per generation    | 1                              |
+| Agent                     | ব্যবহার করো না                 |
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SCRIPT  (বাংলা)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BEAT 1 (হুক দৃশ্য — ~২০ শব্দ):
+"আমরা অনেকেই নতুন জায়গায় যাওয়ার আগের রাতে ঘুমাতে পারি না —
+মাথায় হাজার প্রশ্ন, বুকে একটা অদ্ভুত ভার। সেটা কি ভুল?"
+
+BEAT 2 (ইনসাইট + ক্লোজিং — ~১৮ শব্দ):
+"না। এই অস্বস্তিটাই আসলে একটা সংকেত —
+যে জায়গাটা তোমাকে ভেতরে ভেতরে বলছে: তুমি বড় হচ্ছ।"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BEAT 1 — OMNI FLASH PROMPT  (Text-to-Video)
+Flow → New Clip → Text-to-Video → paste this prompt
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Shot framing & camera motion: Medium shot, eye-level camera height. Camera begins perfectly centered on the subject, then arcs slowly and smoothly to the camera-left over the full clip duration — subtle, gentle orbit movement, no sudden motion — ending at a slightly-left-angle framing by the final frame.
+
+Style: Cinematic, colorful, rich color grading, warm-cool contrast, higher saturation, vibrant naturalistic tones.
+
+Lighting: Natural outdoor daylight, soft directional light casting gentle shadows on the face — flattering, warm, real depth.
+
+Character & Location: @me, wearing a half-sleeve cotton polo shirt in a muted light-to-medium tone, outdoors in a green public park, natural greenery and trees softly blurred behind, a walking path visible in the background, natural daylight.
+
+Action: @me stands near a park path, looking directly into the camera with a calm, thoughtful expression. One hand rests near the chest — as if sharing something personal. Subtle natural breathing visible.
+
+Audio/Music: Modern upbeat instrumental, driving percussion, subtle electronic beat, hopeful major-key melody, no vocals — enters with a noticeable swell in the first second, settles under the dialogue, then builds to a satisfying climax in the final moment of this beat.
+
+Text rendering: No on-screen text.
+
+Dialogue (spoken in Bengali, lip-synced): "আমরা অনেকেই নতুন জায়গায় যাওয়ার আগের রাতে ঘুমাতে পারি না — মাথায় হাজার প্রশ্ন, বুকে একটা অদ্ভুত ভার। সেটা কি ভুল?"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⚡ BEAT 1 শেষ হওয়ার পর — LAST FRAME বের করো
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Beat 1 ক্লিপ ডাউনলোড করো, তারপর শেষ ফ্রেমটা image হিসেবে বের করো:
+
+  ক) CapCut: Import করো → Timeline-এর একদম শেষে scrub করো → "Export Frame"
+  খ) VLC: Open করো → শেষে যাও → Video > Take Snapshot
+  গ) যেকোনো video player-এ শেষ মুহূর্তে pause → screenshot
+
+সেই image-টাই Beat 2-এর প্রথম ফ্রেম হবে।
+Flow-এ: New Clip → Image-to-Video → extracted frame আপলোড করো → Beat 2 prompt paste করো।
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BEAT 2 — OMNI FLASH PROMPT  (Image-to-Video)
+Flow → New Clip → Image-to-Video → Beat 1-এর last frame → paste this prompt
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[First frame provided: last frame of Beat 1 — character face, wardrobe, location, lighting, and camera angle are fully locked by the reference frame. Continue seamlessly from this exact moment.]
+
+Camera motion: Camera is currently at a slight left angle (matching the end of Beat 1). Continue the arc smoothly back toward center, settling slightly right of center as the closing line lands — same gentle pace, no sudden movement.
+
+Action: @me's expression shifts from thoughtful to quietly confident. One hand rises gently, naturally, for emphasis as the insight lands.
+
+Audio/Music: Modern upbeat instrumental, driving percussion, subtle electronic beat, hopeful major-key melody, no vocals — same instrumentation continuing from Beat 1, builds to a satisfying climax in the final moment of the video — volume and intensity peak as the closing line lands, then clean cut. No weather/ambient SFX.
+
+Text rendering: No on-screen text.
+
+Dialogue (spoken in Bengali, lip-synced): "না। এই অস্বস্তিটাই আসলে একটা সংকেত — যে জায়গাটা তোমাকে ভেতরে ভেতরে বলছে: তুমি বড় হচ্ছ।"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CAPCUT STITCHING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+১. Beat 1 + Beat 2 CapCut-এ import করো
+২. Timeline: Beat 1 → Beat 2 (hard cut, কোনো transition নয়)
+   — Last/first frame match-cut করবে স্বয়ংক্রিয়ভাবে
+৩. Music Omni Flash-এর পছন্দ না হলে → CapCut trending sounds থেকে replace করো
+৪. 9:16, 1080×1920, 30fps export করো
+
+===================================================
+END OF FLOW PRODUCTION PACKAGE
+===================================================

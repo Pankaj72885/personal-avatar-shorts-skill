@@ -55,12 +55,13 @@ description: >
 - **Location profile বাছাই** (Studio/Home/Outdoor থেকে একটা, লগে কম ব্যবহৃতটা)।
 - **Wardrobe** (প্রতি রানে নতুন): `references/wardrobe-guide.md` অনুযায়ী।
 
-### ৪. Reference Image চেক/তৈরি করো
-`references/reference-images.md` দেখো — নির্বাচিত mode-এর reference আগে থেকে আছে ও current
-ঋতু/wardrobe-এর সাথে মেলে? থাকলে reuse (স্কিপ করো)। না থাকলে/ঋতু বদলেছে হলে,
-`references/production-guide.md`-এর reference-image প্রম্পট (in-character natural pose স্টাইলে)
-দাও, ব্যবহারকারীকে Ingredients-এ `@StudioRef`/`@HomeRef`/`@OutdoorRef` নামে আপলোড করতে বলো, আর
-`reference-images.md` আপডেট করো।
+### ৪. Reference Image প্রম্পট সবসময় দাও
+`references/reference-images.md` দেখো — নির্বাচিত mode-এর তারিখ ও wardrobe নোট করো।
+এরপর **সবসময়**, প্রতিটা আউটপুটে, নির্বাচিত mode-এর জন্য `references/production-guide.md`-এর
+reference-image প্রম্পট (in-character natural pose স্টাইলে) তৈরি করে Flow Production Package-এ
+অন্তর্ভুক্ত করো। কারণ: নতুন Flow প্রজেক্টে শুধু `@me` টিকে থাকে — `@StudioRef`/`@HomeRef`/
+`@OutdoorRef` সহ সব Ingredient রিসেট হয়। তাই প্রম্পট সবসময় হাতের কাছে থাকা দরকার।
+ঋতু/wardrobe বড় বদল হলে `reference-images.md` আপডেট করো।
 
 ### ৫. বাংলা স্ক্রিপ্ট লেখো, ২ বিটে ভাগ করো
 `references/theme-bank.md`-এর "রিলেটেবল দৃশ্য/হুক" অনুযায়ী — সরাসরি উপদেশ না, একটা নির্দিষ্ট

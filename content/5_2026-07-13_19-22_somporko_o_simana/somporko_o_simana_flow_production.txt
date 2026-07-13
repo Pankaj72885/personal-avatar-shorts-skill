@@ -1,0 +1,118 @@
+================================================================
+FLOW PRODUCTION PACKAGE
+থিম: সম্পর্ক ও সীমানা (Relationships & Boundaries)
+তারিখ: 2026-07-13 | Location: Home | মুড: Soft/Emotional
+================================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION A — AGENT INSTRUCTIONS (একবার Flow প্রজেক্টে সেট করো)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Character: @me — Bengali male, medium build, short dark hair, wearing a half-sleeve cotton polo in a muted light-to-medium tone (monsoon season). Keep identical face, hairstyle, and voice across every generation.
+
+INGREDIENTS: @me (character/voice) + @HomeRef (location-specific reference image — locks wardrobe, location, and props for Home mode).
+
+REFERENCE IMAGE STATUS: @HomeRef already exists (created 2026-07-11, monsoon wardrobe).
+নতুন প্রজেক্টে Ingredients রিসেট হয় — নিচের প্রম্পট দিয়ে @HomeRef নতুন করে বানিয়ে নাও।
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION A-REF — @HomeRef REFERENCE IMAGE প্রম্পট
+(Nano Banana / Flow Image Mode-এ @me দিয়ে generate করো)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Photorealistic still of @me, wearing a half-sleeve cotton polo in a muted light-to-medium tone (monsoon season), a cozy home living-room corner, sitting in a comfortable armchair beside a warm wood bookshelf softly blurred behind, a small side table visible with one coffee mug and an open notebook, warm ambient lamp light, soft textured curtains in the background. Sitting in a natural relaxed pose as if captured mid-conversation — a candid in-character moment, not a posed lookbook shot. Soft natural expression. Warm ambient lamp lighting matching the Home mode. Medium shot, 9:16 portrait, photorealistic. No text, no watermark.
+
+📌 করার পদ্ধতি:
+1. Flow → Nano Banana image mode → @me যোগ করো → উপরের প্রম্পট পেস্ট করো → Generate
+2. জেনারেট হওয়া ছবিটা Flow-এর Ingredients-এ আপলোড করো
+3. নাম দাও: @HomeRef
+4. এরপর নিচের Beat prompts-এ @me ও @HomeRef দুটোই সক্রিয় থাকবে
+
+
+
+LOCATION LIBRARY (fixed profile বর্ণনা):
+
+[Home]: a cozy home living-room corner, sitting in a comfortable armchair beside a warm wood bookshelf softly blurred behind, a small side table visible with one coffee mug and an open notebook, warm ambient lamp light, soft textured curtains in the background.
+
+Content style: Direct-to-camera motivational short, Jay-Shetty-style calm-confident delivery pacing, but visually colorful and cinematic. Vertical 9:16 only.
+
+Visual style: Rich cinematic color grading, warm/cool contrast, saturated natural tones, flattering directional lighting with real depth.
+
+Camera: systematic subtle arc/orbit movement across both beats — see beat prompts below.
+
+Audio: intentional mood-matched instrumental music in every clip — no weather/ambient SFX.
+
+Default behavior: reuse @me, @HomeRef, and the Location Library text for every clip of this video.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION B — AGENT SETTINGS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Confirm before generating : Always
+Aspect ratio              : 9:16 (vertical)
+Model                     : Gemini Omni Flash (video) | Nano Banana (reference image)
+Outputs per generation    : 1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION C — SCRIPT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+বিট ১ (~১৯ শব্দ — হুক দৃশ্য):
+"সবার কথা রাখতে রাখতে, কখন যে নিজের কথাটাই ভুলে গিয়েছিলাম — বুঝতেই পারিনি।"
+
+বিট ২ (~২০ শব্দ — ইনসাইট + ক্লোজিং):
+"'না' বলাটা স্বার্থপরতা না — নিজেকে ভালোবাসার সবচেয়ে সৎ উপায়। তোমার সীমানাটা তোমারই।"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION D — OMNI FLASH PROMPTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+══════════════════════════════════════════
+BEAT 1 PROMPT (Flow-এ কপি-পেস্ট করো)
+══════════════════════════════════════════
+
+@me, @HomeRef
+
+Shot: Medium shot, eye-level camera height. Camera starts at a centered position and arcs slowly and smoothly to camera-left across the full duration of the clip — subtle, slow, no sudden movement — ending at a slightly-left-angle framing of the subject. Maintain the medium shot throughout.
+
+Style: Cinematic, colorful, rich warm color grading — deep warm tones with a touch of cool shadow contrast, high saturation on ambient lamp and bookshelf. Flattering directional soft light from the lamp side.
+
+Lighting: Warm ambient lamp light casting gentle directional glow from one side, creating soft depth and shadow. Cozy, intimate feel.
+
+Location + Props (@me, @HomeRef): a cozy home living-room corner, sitting in a comfortable armchair beside a warm wood bookshelf softly blurred behind, a small side table visible with one coffee mug and an open notebook, warm ambient lamp light, soft textured curtains in the background.
+
+Action: @me is seated in the armchair, looking directly into camera with a calm, thoughtful expression. A slight, natural lean forward as if sharing something personal with a trusted friend. Gentle, natural hand resting in lap.
+
+Audio/Music: soft cinematic instrumental, gentle piano with warm string swells, emotional and reflective, no vocals — enters with a noticeable swell in the first second, settles under the dialogue, then builds to a satisfying climax in the final moment of this beat.
+
+No on-screen text.
+
+Keep the exact same face, hairstyle, outfit, location, and props as reference — do not alter facial proportions, age, or eye color, and do not introduce new furniture, objects, or equipment, and do not change the room. Change only what this prompt explicitly describes.
+
+Dialogue (spoken in Bengali, lip-synced): "সবার কথা রাখতে রাখতে, কখন যে নিজের কথাটাই ভুলে গিয়েছিলাম — বুঝতেই পারিনি।"
+
+══════════════════════════════════════════
+BEAT 2 PROMPT (Beat 1-এর পরেই একই session-এ)
+══════════════════════════════════════════
+
+@me, @HomeRef
+
+Shot: Continuing directly from the previous clip's ending frame: camera positioned at a slight left angle to the subject, matching the exact framing, distance, and angle where the last clip ended. Then arcs slowly and smoothly back toward center — or slightly further right — reaching a gentle centered-to-right framing by the final closing line. Medium shot throughout.
+
+Style: Cinematic, colorful, rich warm color grading — deep warm tones with a touch of cool shadow contrast, high saturation on ambient lamp and bookshelf. Flattering directional soft light from the lamp side.
+
+Lighting: Warm ambient lamp light casting gentle directional glow from one side, creating soft depth and shadow. Cozy, intimate feel.
+
+Location + Props (@me, @HomeRef): a cozy home living-room corner, sitting in a comfortable armchair beside a warm wood bookshelf softly blurred behind, a small side table visible with one coffee mug and an open notebook, warm ambient lamp light, soft textured curtains in the background.
+
+Action: @me is seated in the armchair, looking directly into camera with calm, grounded confidence. A brief pause before delivering the insight — then a gentle, decisive nod at the closing line. Natural, understated hand gesture on "না বলাটা".
+
+Audio/Music: soft cinematic instrumental, gentle piano with warm string swells, emotional and reflective, no vocals — continues from beat 1, same instrumentation, then builds to a satisfying climax in the final moment of the video as the closing line is delivered.
+
+No on-screen text.
+
+Keep the exact same face, hairstyle, outfit, location, and props as reference — do not alter facial proportions, age, or eye color, and do not introduce new furniture, objects, or equipment, and do not change the room. Change only what this prompt explicitly describes.
+
+Dialogue (spoken in Bengali, lip-synced): "'না' বলাটা স্বার্থপরতা না — নিজেকে ভালোবাসার সবচেয়ে সৎ উপায়। তোমার সীমানাটা তোমারই।"
+
+================================================================
