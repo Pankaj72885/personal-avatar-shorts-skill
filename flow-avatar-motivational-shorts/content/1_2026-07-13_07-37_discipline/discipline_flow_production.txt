@@ -1,0 +1,52 @@
+# Flow Production Package: Discipline (Home)
+
+## Agent Instructions & Settings
+Confirm before generating: Always
+Aspect ratio: 9:16 (vertical)
+Model: Gemini Omni Flash
+Outputs per generation: 1
+
+Character: @me — wearing a half-sleeve cotton polo, muted light-to-medium tone. Keep identical face, hairstyle, and voice across every generation.
+
+INGREDIENTS: @me (character/voice) + @HomeRef (location-specific reference image — locks wardrobe, location, and props for that mode; see references/reference-images.md for freshness).
+
+LOCATION LIBRARY:
+[Home]: a cozy home living-room corner, sitting in a comfortable armchair beside a warm wood bookshelf softly blurred behind, a small side table visible with one coffee mug and an open notebook, warm ambient lamp light, soft textured curtains in the background.
+
+Content style: Direct-to-camera motivational short, Jay-Shetty-style calm-confident delivery pacing, but visually colorful and cinematic. Vertical 9:16 only.
+Visual style: Rich cinematic color grading, warm/cool contrast, saturated natural tones, flattering directional lighting with real depth.
+Camera: systematic subtle arc/orbit movement across both beats.
+Audio: intentional mood-matched instrumental music in every clip — no weather/ambient SFX.
+Default behavior: reuse @me, the active @HomeRef, and the Location Library text for every clip of this video.
+
+## Omni Flash Prompts
+
+---
+### BEAT 1 (Hook)
+Prompt:
+Medium shot, 9:16 portrait. @me, @HomeRef.
+Action: Looking directly at the camera, talking in a calm, confident, and conversational manner with natural subtle hand gestures.
+Wardrobe: wearing a half-sleeve cotton polo, muted light-to-medium tone.
+Location: a cozy home living-room corner, sitting in a comfortable armchair beside a warm wood bookshelf softly blurred behind, a small side table visible with one coffee mug and an open notebook, warm ambient lamp light, soft textured curtains in the background.
+Style: Cinematic, photorealistic, rich color grading, warm-cool contrast, flattering directional lighting.
+Camera: Camera starts centered on the subject, then slowly, smoothly, and subtly arcs toward camera-left across the duration of the clip. No sudden movements. Ends at a slightly-left-angle framing in a medium shot.
+Audio/Music: modern upbeat instrumental, driving percussion, subtle electronic beat, hopeful major-key melody, no vocals — enters with a noticeable swell in the first second, settles under the dialogue.
+Text: No on-screen text.
+Keep the exact same face, hairstyle, outfit, location, and props as reference — do not alter facial proportions, age, or eye color, and do not introduce new furniture, objects, or equipment, and do not change the room. Change only what this prompt explicitly describes.
+
+Dialogue (spoken in Bengali, lip-synced): "আমাদের আশেপাশেই এমন কাউকে দেখা যায়, যে রোজ ভোরে উঠে কাজ শুরু করে। আমরা হয়তো ঘুমাই আর ভাবি, মানুষটা পাগল! একটুও জীবন উপভোগ করতে জানে না।"
+
+---
+### BEAT 2 (Insight)
+Prompt:
+Medium shot, 9:16 portrait. @me, @HomeRef.
+Action: Looking directly at the camera, talking in a calm, confident, and conversational manner with natural subtle hand gestures.
+Wardrobe: wearing a half-sleeve cotton polo, muted light-to-medium tone.
+Location: a cozy home living-room corner, sitting in a comfortable armchair beside a warm wood bookshelf softly blurred behind, a small side table visible with one coffee mug and an open notebook, warm ambient lamp light, soft textured curtains in the background.
+Style: Cinematic, photorealistic, rich color grading, warm-cool contrast, flattering directional lighting.
+Camera: Continuing directly from the previous clip's ending frame: camera positioned at a slight left angle to the subject, matching the exact framing, distance, and angle where the last clip ended. Slowly arcs back toward the center, stopping on the closing line.
+Audio/Music: modern upbeat instrumental, driving percussion, subtle electronic beat, hopeful major-key melody, no vocals — builds to a satisfying climax in the final moment of the video, then ends cleanly.
+Text: No on-screen text.
+Keep the exact same face, hairstyle, outfit, location, and props as reference — do not alter facial proportions, age, or eye color, and do not introduce new furniture, objects, or equipment, and do not change the room. Change only what this prompt explicitly describes.
+
+Dialogue (spoken in Bengali, lip-synced): "কিন্তু আজ বোঝা যায়, সেই পাগল রুটিনটাই তাকে সবার চেয়ে এগিয়ে দিয়েছে। আসলে, আমাদের এই ছোট ছোট শৃঙ্খলাই আগামীর বড় স্বাধীনতা তৈরি করে।"

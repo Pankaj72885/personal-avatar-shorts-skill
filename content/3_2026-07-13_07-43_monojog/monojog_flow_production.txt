@@ -1,0 +1,104 @@
+================================================================
+FLOW PRODUCTION PACKAGE — মনোযোগ (Focus / Attention)
+Serial: 3 | Date: 2026-07-13 | Time: 07:43 | Mode: Studio
+================================================================
+
+────────────────────────────────────────────
+AGENT INSTRUCTIONS (Project-level — একবার সেট করো)
+────────────────────────────────────────────
+
+Character: @me — Bengali male, calm-confident presence, wearing a half-sleeve cotton polo in a muted light-to-medium tone (monsoon wardrobe). Keep identical face, hairstyle, and voice across every generation.
+
+INGREDIENTS: @me (character/voice) + @StudioRef (Studio location reference image — locks wardrobe, location, and props for Studio mode; reuse existing @StudioRef from Ingredients).
+
+LOCATION LIBRARY (fixed profile — হুবহু এই বর্ণনা প্রতিটা বিটে কপি করো):
+
+[Studio — ACTIVE THIS VIDEO]: a modern podcast-style studio corner, a professional condenser microphone on a boom arm positioned just outside frame to one side (small brand label reads "Focus" on the mic body), soft colorful LED accent lighting glowing softly in the blurred background, a neutral acoustic-panel wall, a small desk with one potted plant.
+
+Content style: Direct-to-camera motivational short, Jay-Shetty-style calm-confident delivery pacing, but visually colorful and cinematic. Vertical 9:16 only.
+
+Visual style: Rich cinematic color grading, warm/cool contrast, saturated natural tones, flattering directional lighting with real depth.
+
+Camera: systematic subtle arc/orbit movement across both beats — Beat 1 arcs slowly left, Beat 2 continues from that angle back toward center.
+
+Audio: intentional mood-matched instrumental music in every clip — no weather/ambient SFX.
+
+Default behavior: reuse @me, @StudioRef, and the Studio Location Library text for every clip of this video.
+
+────────────────────────────────────────────
+AGENT SETTINGS
+────────────────────────────────────────────
+
+| Setting               | Value                              |
+|-----------------------|------------------------------------|
+| Confirm before gen    | Always                             |
+| Aspect ratio          | 9:16 (vertical)                    |
+| Model                 | Gemini Omni Flash (video)          |
+| Outputs per gen       | 1                                  |
+
+────────────────────────────────────────────
+REFERENCE IMAGE
+────────────────────────────────────────────
+
+@StudioRef — REUSE করো (2026-07-11-এ তৈরি, বর্ষা wardrobe মিলছে, নতুন generation দরকার নেই)।
+Ingredients-এ আগের @StudioRef-ই সিলেক্ট করো।
+
+────────────────────────────────────────────
+বাংলা স্ক্রিপ্ট — ২ বিট
+────────────────────────────────────────────
+
+বিট ১ (হুক দৃশ্য, ~৮-১০ সেকেন্ড, ২০ শব্দ):
+"ফোনে তিন ঘণ্টা স্ক্রল করলাম — রাত শেষ।
+পাশে বইটা একইভাবে বন্ধ পড়ে আছে, যেভাবে সকালে রেখেছিলাম।"
+
+বিট ২ (ইনসাইট + ক্লোজিং, ~৮-১০ সেকেন্ড, ২১ শব্দ):
+"একসাথে সব করতে গেলে, আসলে কিছুই হয় না ঠিকমতো।
+একটাতে মন দাও — সেটাই বদলে দেবে বাকি সব।"
+
+মোট শব্দ: ৪১ (লক্ষ্যমাত্রা ৩৬-৪৮ ✅)
+
+────────────────────────────────────────────
+BEAT 1 — OMNI FLASH PROMPT
+────────────────────────────────────────────
+
+Medium shot, camera starts centered on subject, slowly arcs to camera-left across the full duration of this clip (subtle, slow, smooth, no sudden movement), ending at a slightly-left-angle framing by the final second.
+
+Cinematic, colorful. Rich color grading with warm-cool contrast, higher saturation, flattering directional lighting.
+
+Location + Ingredients: @me, @StudioRef — a modern podcast-style studio corner, a professional condenser microphone on a boom arm positioned just outside frame to one side (small brand label reads "Focus" on the mic body), soft colorful LED accent lighting glowing softly in the blurred background, a neutral acoustic-panel wall, a small desk with one potted plant.
+
+@me is seated, speaking directly to camera with calm, natural hand gestures. Expression is slightly reflective at the start, then transitions to engaged and direct.
+
+Audio/Music: modern upbeat instrumental, driving percussion, subtle electronic beat, hopeful major-key melody, no vocals — enters with a noticeable swell in the first second, settles under the dialogue, then builds to a satisfying climax in the final moment of this beat.
+
+No on-screen text.
+
+Keep the exact same face, hairstyle, outfit, location, and props as reference — do not alter facial proportions, age, or eye color, and do not introduce new furniture, objects, or equipment, and do not change the room. Change only what this prompt explicitly describes.
+
+Dialogue (spoken in Bengali, lip-synced):
+"ফোনে তিন ঘণ্টা স্ক্রল করলাম — রাত শেষ। পাশে বইটা একইভাবে বন্ধ পড়ে আছে, যেভাবে সকালে রেখেছিলাম।"
+
+────────────────────────────────────────────
+BEAT 2 — OMNI FLASH PROMPT
+────────────────────────────────────────────
+
+Continuing directly from the previous clip's ending frame: camera positioned at a slight left angle to the subject, matching the exact framing, distance, and angle where the last clip ended. Camera then slowly arcs back toward center across the duration of this clip, settling slightly right-of-center at the closing line.
+
+Cinematic, colorful. Rich color grading with warm-cool contrast, higher saturation, flattering directional lighting.
+
+Location + Ingredients: @me, @StudioRef — a modern podcast-style studio corner, a professional condenser microphone on a boom arm positioned just outside frame to one side (small brand label reads "Focus" on the mic body), soft colorful LED accent lighting glowing softly in the blurred background, a neutral acoustic-panel wall, a small desk with one potted plant.
+
+@me is seated, speaking directly to camera. Expression shifts from calm observation to confident and grounded. Slight forward lean toward the end as the closing line lands.
+
+Audio/Music: modern upbeat instrumental, driving percussion, subtle electronic beat, hopeful major-key melody, no vocals — continues from Beat 1, builds to a satisfying climax in the final moment of the video, then clean cut.
+
+No on-screen text.
+
+Keep the exact same face, hairstyle, outfit, location, and props as reference — do not alter facial proportions, age, or eye color, and do not introduce new furniture, objects, or equipment, and do not change the room. Change only what this prompt explicitly describes.
+
+Dialogue (spoken in Bengali, lip-synced):
+"একসাথে সব করতে গেলে, আসলে কিছুই হয় না ঠিকমতো। একটাতে মন দাও — সেটাই বদলে দেবে বাকি সব।"
+
+================================================================
+END OF FLOW PRODUCTION PACKAGE
+================================================================
